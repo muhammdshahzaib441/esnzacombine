@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>category-page</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- bootstraps -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <!-- bootstrap-js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"> </script>  
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- font-icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <!-- stylesheet -->
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+<body>
+        <!-- header-sec -->
+    <header>
+        <div class="container-fluid p-0">
+            <div class=" row-1 d-flex justify-content-between">
+                <div class="reviews-block p-2 ps-4">
+                    <i class="icon-start"></i>
+                    <i class="icon-start"></i>
+                    <i class="icon-start"></i>
+                    <i class="icon-start"></i>
+                    <i class="icon-start-helf"></i>
+                    <a class="progress_text" href="#">Bekijk alle klantbeoordelingen</a>
+                </div>
+                <div class="mid_text p-2"><a href="#">Op werkdagen vóór 21 uur besteld, morgen in huis</a></div>
+                <div class="authorization-link d-flex justify-content-between align-items-center flex-nowrap">
+                    <a href="#"><i class="bi bi-person"></i></a>
+                    <a href="#"><i class="bi bi-bag"></i></a>
+                </div>
+            </div>
+            <div class="row-2">
+                <div class="sign-up-form-section px-4">
+                    <form class="sign-up-form d-flex align-items-center">
+                        <input type="search" class="sign-up-form-input form-control" type="email" id="eamil"
+                            placeholder="Near walk product ben je op zoek  ?">
+                        <label for="email"></label>
+                        <!-- <input class="sign-up-form-botn btn" type="submit" value="Aanmelden" name="signup" id="signup"> -->
+                        <button class="sign-up-form-botn btn" type="button">
+                            <i class="search-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+                <!-- hero-heading -->
+    <div class="logo_nav_box">
+        <div class="hero-heading text-center px-3">
+                <a href="#" class="d-inline-block float-start"><i class="bi bi-list"></i></a>
+             <h1 class="d-inline-block">ESSENZAHOME</h1>
+        </div>
+                <!-- navbar -->
+        <nav>
+            <ul class="d-flex justify-content-evenly flex-wrap py-2">
+                <li><a class="parent" href="#">Nieuwe collectie</a></li>
+                <li class="menu-dropdown-icon category-item dropdown-box">
+                <a class="parent" href="#">Producten</a>
+                <ul class="column1">
+                    <li class="menu-header">
+                        <ul>
+                            <li><a href="#">SPECIAL DEALS tot -50%</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-content">
+                        <div class="col-menu-3 vertical-menu-left">
+                            <ul>
+                            <li class="menu-vertical-items  dropdown selected">
+                                <a href="#">Slapen</a>
+                                <ul class="menu-vertical-child column3 mobile-view">
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Bedtextiel</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Dekbedovertrekken</a></li>
+                                            <li class=""><a href="#">Kussenslopen</a></li>
+                                            <li class=""><a href="#">Hoeslakens</a></li>
+                                            <li class=""><a href="#">Moltons</a></li>
+                                            <li class=""><a href="#">Toppers</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Slaapkameraccessoires</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Sierkussens</a></li>
+                                            <li class=""><a href="#">Rolkussens</a></li>
+                                            <li class=""><a href="#">Spreien</a></li>
+                                            <li class=""><a href="#">Plaids</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Beddengoed</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Dekbedden</a></li>
+                                            <li class=""><a href="#">Kussens</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Materiaal</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Katoen satijn</a></li>
+                                            <li class=""><a href="#">Flanel</a></li>
+                                            <li class=""><a href="#">Katoen perkal</a></li>
+                                            <li class=""><a href="#">Katoen renforcé</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Meer informatie</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Wat is katoen satijn?</a></li>
+                                            <li class=""><a href="#">Welke maat
+                                                    dekbedovertrek heb ik nodig?</a></li>
+                                            <li class=""><a href="# ">Hoe kan ik mijn
+                                                    dekbedovertrek het beste wassen?</a></li>
+                                            <li class=""><a href="#">Wat betekent de threadcount?</a></li>
+                                            <li class=""><a href="#">Welk dekbed en
+                                                    hoofdkussen passen bij mij?</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="">
+                                        <h4 class="level-3-cat"><a href="#">Discover more</a></h4>
+                                        <ul>
+                                            <li class=""><a href="#">Nieuw binnen</a></li>
+                                            <li class=""><a href="#">Dekbedovertrekken top 10</a></li>
+                                            <li class=""><a href="#">ESSENZA for Mauritshuis</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-vertical-items  dropdown">
+                                <a href="#">BAden & douchen</a>
+                            </li>
+                            <li class="menu-vertical-items  dropdown">
+                                <a href="#">women</a>
+                            </li>
+                            <li class="menu-vertical-items  dropdown">
+                                <a href="#">Koken & tafelen</a>
+                            </li>
+                            <li class="menu-vertical-items  dropdown">
+                                <a href="#">Homewear & Pyjama's</a>
+                            </li>
+                            <li class="menu-vertical-items  dropdown">
+                                <a href="#">Accessoires</a>
+                            </li>
+                            </ul>
+                        </div>
+                        <div class="col-menu-9 vertical-menu-content">
+                            <div class="vertical-subcate-content active">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Bedtextiel</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Dekbedovertrekkeng</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kussenslopen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Moltons</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Hoeslakens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Toppers</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Slaapkamer accessoires</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Sierkussens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Rolkussens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Spreien</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Plaids</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Beddengoed</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Dekbedden</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kussens</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Materiaal</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Katoen satijn</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Flanel</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Katoen perkal</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Katoen renforcé</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Wat is katoen satijn?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Welke maat dekbedovertrek heb ik
+                                                    nodig?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Hoe kan ik mijn dekbedovertrek het
+                                                    beste wassen?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Wat betekent de threadcount?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Welk dekbed en hoofdkussen passen
+                                                    bij mij?</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Nieuw binnen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Dekbedovertrekken top 10</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">ESSENZA for Mauritshuis</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="vertical-subcate-content">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Badtextiel</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Badjassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Handdoeken</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Gastendoekjes</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Washandjes</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Strandlakens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Badmatten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Badkameraccessoires</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Toilettassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Zeepdispensers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Opbergen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tandenborstelhouders</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Overige badkameraccessoires</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Onze favoriete badjassen en kimono's</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Wat is GOTS katoen?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Giftcard</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Nieuw binnen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Handdoeken top 10</a>
+                                            </li>
+                                        </ul>
+                                    </li>                                 
+                                </ul>
+                            </div>
+                            <div class="vertical-subcate-content">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Woonaccessoires</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Vloerkleden</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Sierkussens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Rolkussens</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Plaids</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Poefs</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Spreien</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Huisparfums</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Interieursprays</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Geurstokjes</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Geurkaarsen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Wat zijn de laatste interieurtrends?</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Trend: katoen velvet</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">The Fleur special</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Giftcard</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Trends</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Duurzaam design</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Nieuw binnen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Accessoires top 10</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="vertical-subcate-content">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Servies</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Borden en schalen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Bekers en kopjes</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kommen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Koffie en thee</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Glaswerk</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Karaffen</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Keukentextiel</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Keukenschorten</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Keukendoeken</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Theedoeken</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Pannenlappen en ovenwanten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Tafeltextiel</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Tafelkleden</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tafellopers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Placemats</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Servetten</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Ontdek onze porselein collectie</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Mix & Match het ESSENZA porselein</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Hoe onderhoud ik het ESSENZA</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">porselein</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Giftcard</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Keuken- en tafeltextiel top 10</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="vertical-subcate-content">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Homewear & pyjama's</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Broeken</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shirts en tops</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Jurken en nachthemden</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Truien en vesten</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Truien en vesten</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Kimono's</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Badjassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Activewear</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">De mooiste nachthemden van dit
+                                                    jaar!</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Giftcard</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Ontdek de ESSENZA Everyday wear
+                                                    collectie</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Homewear top 10</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Ontdek de COVERS & CO Homewear
+                                                    collectie
+                                                    </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Nieuw in onze homewear collectie:
+                                                    Menswear</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="vertical-subcate-content">
+                                <ul class="menu-vertical-child column3">
+                                    <li>
+                                        <h4>Tassen</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Toilettassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Schoudertassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Shoppers</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Weekendtassen</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Portemonnees</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Overige accessoires</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Notitieboekjes</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Meer informatie</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Giftcard</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Duurzaam design</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <h4>Discover more</h4>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Tassen top 10</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </li>
+                <li><a class="parent" href="#">Ruimtes</a></li>
+                <li><a class="parent" href="#">Outlet</a></li>
+                <li><a class="parent" href="#">Inspiratie</a></li>
+                <i class="fa-brands fa-facebook-f"></i>
+            </ul>
+        </nav>
+        </div>
+    </div>
+    </header>
+ <section class="catogery-section">
+    <div class="container">
+        <div class="heading-conteng">
+            <h2 class="text-md-start text-center p-2">HOMEBedtextiel</h2>
+            <p class="text-md-start text-center p-2">Voor bijzonder bedtextiel als dekbedovertrekken, kussenslopen en hoeslakens gemaakt van kwalitatieve en zachte
+
+                materialen ben je bij ESSENZA HOME aan het juiste adres. Met een uitgebreide collectie bedtextiel van ESSENZA,
+                
+                Marc O’Polo en COVERS & CO zit er altijd iets voor je bij. Kies uit vele afmetingen, stijlvolle kleuren en laat je
+                
+                verleiden door de mooiste prints!</p>
+        </div>
+        <div class=" row-1 row">
+            <div class="nav-box d-flex flex-wrap">
+                <button type="button" class="items btn btn-outline-dark mb-2">Dekbedovertrek</button>
+                <button type="button" class="items btn btn-outline-dark mb-2">Hoeslaken</button>
+                <button type="button" class="items btn btn-outline-dark mb-2">Kussensloop</button>
+                <button type="button" class="items btn btn-outline-dark mb-2">Sierkussen</button>
+                <button type="button" class="items btn btn-outline-dark mb-2">Plaid</button>
+            </div>
+        </div>
+        <div class="row-2 row">
+            <div class="d-flex justify-content-between py-3">
+                <div class="left-side"><h3>Filteropties</h3></div>
+                <div class="right-side">
+                <span>SORTEER OP</span>
+                <div class="dropdown  d-inline-block">
+                    <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        AANBEVOLEN
+                    <i class="bi bi-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </div>
+                
+                <i class="arrow_up fa-sharp fa-solid fa-up-long"></i>
+                </div>
+            </div>
+        </div>
+        <div class="category-content row">
+            <div class="col-md-3 col-12">
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            TYPE PRODUCT
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere exercitationem tempore.</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            MAAT
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere exercitationem tempore..</div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            KLEUR
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere exercitationem tempore..</div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-9 col-12">
+                <div class="row">
+                    <div class=" col-md-4 col-sm-6 d-flex justify-content-center  pt3 pb-5">
+                    <div class="category-item">
+                        <div class="img-box">
+                            <a href="#">
+                            <img class="img-fluid" src="assets/category-page/1.jpg" alt="icon">
+                            </a>
+                        </div>
+                        <figcaption>
+                            <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                            <span class="d-block">ESSENZA Elegant View</span>
+                            <span class="d-block">Dekbedovertrek</span>
+                            <span class="d-block">240 x 220 cm</span>
+                            <strong>€ 199,95</strong>
+                        </figcaption>
+                    </div>
+                    </div>
+                    <div class=" col-md-4 col-sm-6 d-flex justify-content-center  pt3 pb-5">
+                    <div class="category-item">
+                        <div class="img-box">
+                            <a href="#"></a><img class="img-fluid" src="assets/category-page/4.jpg" alt="icon">
+                        </a>
+                        </div>
+                        <figcaption>
+                           <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                            <span class="d-block">ESSENZA Elegant View</span>
+                            <span class="d-block">Dekbedovertrek</span>
+                            <span class="d-block">240 x 220 cm</span>
+                            <strong>€ 199,95</strong>
+                        </figcaption>
+                    </div>
+                    </div>
+                    <div class=" col-md-4 col-sm-6 d-flex justify-content-center pt3 pb-5 ">
+                    <div class="category-item">
+                        <div class="img-box">
+                            <a href="#"><img class="img-fluid" src="assets/category-page/2.jpg" alt="icon">
+                        </a>
+                        </div>
+                        <figcaption>
+                            <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                            <span class="d-block">ESSENZA Elegant View</span>
+                            <span class="d-block">Dekbedovertrek</span>
+                            <span class="d-block">240 x 220 cm</span>
+                            <strong>€ 199,95</strong>
+                        </figcaption>
+                    </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/5.jpg" alt="icon">
+                            </a>
+                            </div>
+                            <figcaption>
+                                <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/3.jpg" alt="icon">
+                            </a>
+                            </div>
+                            <figcaption>
+                                <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/6.jpg" alt="icon">
+                                </a>
+                            </div>
+                            <figcaption>
+                                <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/2.jpg" alt="icon">
+                            </a>
+                            </div>
+                            <figcaption>
+                                <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/5.jpg" alt="icon">
+                            </a>
+                            </div>
+                            <figcaption>
+                               <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 d-flex d-flex justify-content-center py-5">
+                        <div class="category-item">
+                            <div class="img-box">
+                                <a href="#"><img class="img-fluid" src="assets/category-page/1.jpg" alt="icon">
+                                </a>
+                            </div>
+                            <figcaption>
+                               <a href="#"><h3>MAURITSHUIS COLLECTION</h3></a>
+                                <span class="d-block">ESSENZA Elegant View</span>
+                                <span class="d-block">Dekbedovertrek</span>
+                                <span class="d-block">240 x 220 cm</span>
+                                <strong>€ 199,95</strong>
+                            </figcaption>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="category-detail">
+            <div class="text-1 pt-3 px-2">
+                <h3 class="pt-2">Bedtextiel kopen?</h3>
+                <p>Een goede nachtrust is belangrijk en dat is de keuze van fijn bedtextiel daarmee ook. We spenderen immers een groot deel van de dag in bed en dan
+
+                    is er niets fijner dan te liggen op én onder comfortabel bedtextiel dat aan jouw wensen en voorkeuren voldoet. Van een luchtig hoeslaken tot aan een
+                    
+                    comfy dekbedovertrek: in de wereld van bedtextiel valt er veel te kiezen. Bedtextiel is namelijk verkrijgbaar in vele soorten, van vele diverse
+                    
+                    materialen, in ontelbare afmetingen en dan moet je ook nog de keuze maken uit je favoriete kleur en print. Maar een ding is zeker: als jij het juiste
+                    
+                    bedtextiel te pakken hebt, zul je heerlijk slapen.</p>
+            </div>
+            <div class="text-1 pt-2 px-2">
+                <h4 class="pt-2">Hoeslakens en topper hoeslakens</h4>
+                <p>Wanneer je je bed opmaakt, begin je met een hoeslaken. Een hoeslaken – het laken dat je om je matras heen doet – zorgt voor extra comfort en vangt
+
+                    het vocht op dat we ’s nachts verliezen. Een hoeslaken is daarom een must voor het opmaken van je bed. Heb je een topper op bed liggen? Vergeet
+                    
+                    dan niet om een topper hoeslaken aan te schaffen. Net als een ‘gewoon’ hoeslaken is een topper hoeslaken een perfecte beschermer voor jouw
+                    
+                    topmatra</p>
+            </div>
+            <div class="text-1 pt-2 px-2">
+                <h4 class="pt-2"">Moltons</h4>
+                <p>Met een molton hoeslaken verleng je de levensduur van je matras nog eens extra, omdat het je matras beschermt tegen vocht. De molton hoeslakens
+
+                    van ESSENZA zijn gemaakt van een extra zwaar katoenen doek dat stevig en extreem zacht aanvoelt. Een échte must voor het opmaken van je bed als
+                    
+                    je het ons vraagt.</p>
+            </div>
+            <div class="text-1 px-2">
+                <h4 class="pt-2">Dekbedovertrekken</h4>
+                <p>Om je dekbed gaat vanzelfsprekend een dekbedovertrek. Dekbedovertrekken zijn er in vele maten (in deze blogpost lees je welke maat jij nodig hebt)
+
+                    en van vele materialen. Kies jouw favoriete materiaal, kies een kleur uit de mooiste trendkleuren en maak een keuze uit de talloze stijlvolle prints. Et
+                    
+                    voilá: jij hebt je nieuwe dekbedovertrek gevonden!</p>
+            </div>
+            <div class="text-1 px-2">
+                <h4 class="pt-2">Kussenslopen</h4>
+                <p>Bij de dekbedovertreksets van ESSENZA, Marc O'Polo en Covers & co zitten – afhankelijk van welke maat je koopt – een of twee kussenslopen. Wil je je
+
+                    kussenslopen iets vaker wassen dan je dekbedovertrek? Bestel dan wat kussenslopen extra. Lekker makkelijk!</p>
+            </div>
+            <div class="text-1 px-2">
+                <h4 class="pt-2">ESSENZA bedtextie</h4>
+                <p>Voor luxe bedtextiel ben je bij ESSENZA aan het juiste adres. Het bedtextiel van ESSENZA wordt namelijk gemaakt van hoogwaardige materialen als
+
+                    katoen satijn en katoen perkal, maar ook van duurzamere materialen katoen lyocell en bamboeviscose. Buiten het materiaal, wordt het bedtextiel
+                    
+                    versierd met luxe en stijlvolle prints en is het altijd verkrijgbaar in de trendkleuren van het moment.</p>
+            </div>
+        </div>
+    </div>
+ </section>
+       <!-- footer -->
+       <section class="footer">
+        <div class="container-fluid p-0">
+            <div class="form-container">
+                <div class="content text-center mx-auto px-3">
+                    <h3>Laat je inspireren door onze nieuwsbrief</h3>
+                    <div class="sign-up-form-section">
+                        <form class="sign-up-form d-flex align-items-center">
+                            <input class="sign-up-form-input form-control text-white" type="email" id="eamil"
+                                placeholder="E-mailadres">
+                            <label for="email"></label>
+                            <input class="sign-up-form-botn btn" type="submit" value="Aanmelden" name="signup" id="signup">
+                        </form>
+                    </div>
+                    <span>En ontvang na aanmelding 10% korting op je eerste bestelling</span> 
+                </div>
+            </div>
+            <div class="servicer d-flex flex-wrap justify-content-xl-between justify-content-center align-items-center">
+                <div class="left d-flex flex-nowrap">
+                    <strong>
+                        <a href="#">NL</a>
+                    </strong>
+                    |
+                    <a href="#">EN</a>
+                    |
+                    <a href="#">DE</a>
+                </div>
+                <div class="d-flex flex-wrap align-items-center justify-content-center">
+                    <span>Eenvoudig betalen</span>
+                    <img src="assets/footer-services/american_express.png" alt="icon">
+                    <img src="assets/footer-services/bancontact.png" alt="icon">
+                    <img src="assets/footer-services/Klarna_.png" alt="icon">
+                    <img src="assets/footer-services/mastercar-2.png" alt="icon">
+                    <img src="assets/footer-services/paypal_png.png" alt="icon">
+                    <img src="assets/footer-services/Visa_3.png" alt="icon">
+                </div>
+                <div class="d-flex flex-nowrap align-items-center">
+                    <span>Volg ons</span>
+                    <a href="#"><img src="assets/footer-services/iinstragram.png" alt="icon"></a>
+                    <a href="#"><img src="assets/footer-services/facebook.png" alt="icon"></a>
+                    <a href="#"><img src="assets/footer-services/pinttrust.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap footer-items">
+                <div class="col-lg-2 col-md-4 col-12 column">
+                    <h4>Over ESSENZA HOME</h4>
+                    <ul>
+                        <li><a href="#">Ons verhaal</a></li>
+                        <li><a href="#">Duurzaamheid</a></li>
+                        <li><a href="#">Vacatures</a></li>
+                        <li><a href="#">Persinformatie</a></li>
+                        <li><a href="#">Ons magazine</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12  column">
+                    <h4>Klantenservice</h4>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Veelgestelde vragen</a></li>
+                        <li><a href="#">Retourneren</a></li>
+                        <li><a href="#">Advies</a></li>
+                        <li><a href="#">Giftcard</a></li>
+                        <li><a href="#">Inpakservice</a></li>
+                        <li><a href="#">Nieuwsbrief</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12  column">
+                    <h4>B2B</h4>
+                    <ul>
+                        <li><a href="#">Samenwer</a></li>
+                        <li><a href="#">B2B portal</a></li>
+                        <li><a href="#">Corporate gifting</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12  column">
+                    <h4>Winkels
+                    </h4>
+                    <ul>
+                        <li><a href="#">Onze winkels</a></li>
+                        <li><a href="#">Store locator</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12  column">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy beleid</a></li>
+                        <li><a href="#">Algemene voorwaarden</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 col-12  column">
+                    <h4>Vragen?</h4>
+                    <p id="last-col-p">
+                        "TEl:"
+                        <a href="tel:+0123456789">+0123456789</a>
+                        "Whatsapp: "
+                        <a href="#">+0123456789</a>
+                        "E-mail:"
+                        <a href="#">example@123.com</a>
+                        <span>
+                            Wij zijn bereikbaar van maandag t/m vrijdag van 09:00 tot 17:00 uur
+                        </span>
+                    </p>
+                </div>
+            </div>
+            <div class="footer-trust d-flex justify-content-start">
+                <div>
+                    <a href="#"><img src="assets/footer-services/safe_shop-trust.png" alt="icon"></a>
+                    <a href="#"><img src="assets/footer-services/trust_ecommerce-trust.png " alt="icon"></a>
+                    <a href="#"><img src="assets/footer-services/thuiswinkel-trust.png" alt="icon"></a>
+                </div>
+            </div>
+            <div class="footer-copy-right text-center">
+                <span>Copyright © 2022 ESSENZA HOME</span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"></script>
+    <script src="essenzahome.js"></script>
+    <!-- bootstrap-js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
